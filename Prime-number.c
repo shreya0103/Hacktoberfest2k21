@@ -4,7 +4,7 @@ int main() {
    int loop, number;
    int prime = 1;
    
-   number = 11;
+   number = 16;
 
    for(loop = 2; loop < number; loop++) {
       if((number % loop) == 0) {
