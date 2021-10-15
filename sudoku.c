@@ -90,7 +90,7 @@ int main() {
 	int grid[N][N];
     printf("\n***************Enter the numbers on sudoku grids***************\n\n(Note : If the grid is empty enter 0)\n\n");
     for(int i = 0; i<N; i++){
-        printf("Enter number in %d row (sepertare them with space) \n",i+1);
+        printf("Enter number in %d row (sepertaring them with space) \n",i+1);
         for (int j =0; j<N; j++) {
             scanf("%d",&grid[i][j]);
         }
@@ -99,7 +99,7 @@ int main() {
 	if (solve(grid)) {
 		print_grid(grid);
 	} else {
-		printf("no solution");
+		printf("There is no solution");
 	}
 	printf("\n");
 	return 0;
